@@ -1,0 +1,16 @@
+  287  git config --list
+  288  git checkout feature\n
+  289  git checkout feature
+  290  git commit --amend
+  291  git checkout main
+  292  git merge feature
+  293  git merge feature --allow-unrelated-histories
+  294  git status
+  295  nano README.md
+  296  git commit -m "Разрешены конфликты в README.md при слиянии веток feature и main"
+  297  git commit -m
+  298  git status
+  299  nano README.md
+  300  git add README.md
+  301  git commit -m "Разрешены конфликты в README.md при слиянии веток feature и main"
+  302  git push origin main
